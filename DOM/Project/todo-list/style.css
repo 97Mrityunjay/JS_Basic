@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #808080;
+    height: 100%;
+  
+    /* width: 100%; */
+}
+.container{
+  height: 60%;
+ 
+}
+.header{
+    height: 60px;
+    /* position: sticky;
+    top: 0px; */
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.heading .todo-heading{
+  color: #ffffff;
+  font-weight: 900;
+  margin-top: 10px;
+
+}
+.header>.addbtn{
+     
+     margin-left: 100px;
+}
+.addbtn .add{
+  border: none;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #120E43;
+}
+.todo-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.todo-list{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.todo-header{
+    background-color: aqua;
+}
+.minimize{
+  padding: 5px;
+  margin-left: 2px;
+}
+.cross{
+  padding: 5px;
+  /* margin-left: 2px; */
+}
+footer{
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;
+
+ 
+}
+.addTodoContainer{
+    background: #ffffff;
+    width: 240px;
+    padding-bottom: 5px;
+    margin: auto;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 40px 40px inset #ffffff;
+    display: none;
+    position: relative;
+}
+.todo-button{
+   display: flex;
+   flex-direction: row;
+
+}
+.close{
+  padding: 5px;
+
+  margin-left: 0px;
+}
+
+.todoHeader{
+  text-align: center;
+  font-weight: 900;
+}
+.text{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.todo-title{
+  width: 100%;
+}
+.btn{
+  margin-top: 5px;
+  margin-left: 90px;
+  padding: 5px;
+}
+.error{
+  color: #ff0000;
+  display: none;
+}
+
+
+
+    

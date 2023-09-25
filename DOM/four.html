@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai and code | DOM</title>
+</head>
+<body style = "background-color: #212121; color: #fff;">
+    <ul class = "language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(lang)
+    {
+        const li = document.createElement("li");
+        li.innerHTML = `${lang}`;
+        document.querySelector(".language").appendChild(li);
+    }
+   addLanguage("python");
+   addLanguage("swift");
+
+   function addOptimalLanguage(lang)
+   {
+     
+      const newList = document.createElement("li");
+     newList.appendChild(document.createTextNode(lang));
+     document.querySelector(".language").appendChild(newList);
+
+   }
+   addOptimalLanguage("Java");
+
+//edit
+const secondLanguage = document.querySelector("li:nth-child(2)");
+
+//console.log(firstLanguage);
+
+const newList = document.createElement("li");
+
+//newList.appendChild(document.createTextNode("TypeScript"));
+
+newList.textContent = "Mojo";
+secondLanguage.replaceWith(newList);
+
+
+// Edit
+const firstLang = document.querySelector("li:first-child");
+firstLang.outerHTML = `<li>TypeScript</li>`
+// console.log(document.querySelector("li:first-child"));
+
+// remove 
+const lastLang = document.querySelector("li:last-child");
+// console.log(lastLang);
+lastLang.remove();
+</script>
+</html>

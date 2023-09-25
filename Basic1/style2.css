@@ -1,0 +1,55 @@
+body{
+    background: #333945;
+}
+.hover{
+    /* background: black; */
+    width: 600px;
+    height:300px;
+    margin: 5px 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.color{
+    margin-right: 5px;
+}
+.red{
+    background: red;
+    height: 30px;
+    width: 90px;
+    
+
+}
+.cyan{
+    background-color:cyan;
+    width: 90px;
+    height: 30px;
+}
+.violet{
+    background-color: violet;
+    height: 30px;
+    width: 90px;
+}
+.orange{
+    background-color: orange;
+    width: 90px;
+    height: 30px;
+}
+.pink{
+    background-color: pink;
+    height: 30px;
+    width: 90px;
+}
+.center{
+   
+ border-radius: 100%;
+ height: 300px;
+ width: 250px;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ /* background: blue; */
+   
+}

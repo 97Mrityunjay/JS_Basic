@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+      <header class="header">
+        <div class="heading">
+         <h1 class="todo-heading">Todo-list</h1> 
+        </div> 
+        <div class="addbtn">
+         <button class="add">+</button>
+        </div>
+      </header>
+      <main class="todo-container">
+        <!-- <div class="todo-list">
+          <div class="todo-header">
+            <button class="cross">X</button>
+           <button class="minimize">-</button>
+          </div>
+       
+           <textarea name="" id="" class = "text" cols="30" rows="10"></textarea>
+       
+        </div> -->
+      </main>
+      <footer>Mrityunjay @copyright reserved</footer>
+   </div>
+   <div class="addTodoContainer" id = "dialog">
+     <div class="form-container">
+      <div class="todo-button">
+        <button class="close">X</button>
+        <!-- <button class="minimize">-</button> -->
+      </div>
+      <div class="form">
+        <div class="todoHeader">Add A New Task</div>
+        <input type="text" class="todo-title" placeholder="Enter a title" /><br/><br>
+        <div class="text">
+          <textarea name="" id="" cols="30" rows="10" class ="todo-text"></textarea>
+        </div>
+        <div class="error">
+          Title or description cannot be empty
+        </div>
+        <button class="btn" onclick = addtodo()>Add</button>
+      </div>
+     </div>
+   </div>
+   <script src = "./script.js"></script>
+</body>
+</html>
