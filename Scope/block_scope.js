@@ -13,7 +13,7 @@
 // }
 
 /* Shadowing in JS : If you have same named variable outside the block, the same named variable inside the block shadows the variable of same name outside the block;
-If we have same named variables outside as well as inside the block. The variable inside the block shadows the outer variables.*/
+If we have same named variables outside as well as inside the block,then the variable inside the block shadows the outer variables.*/
 
 var y = 6;
 {

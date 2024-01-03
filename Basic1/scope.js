@@ -69,3 +69,4 @@ console.log(a);
   variables are created when a function starts and deleted when function is executed.
   Local variables have function scope.
  */
+

@@ -22,3 +22,9 @@ const randomCourse=courseList[Math.floor(Math.random()*courseList.length)];
 console.log(randomCourse);
 
             
+let x = 10;
+{
+  console.log(x);
+  let x = 20;
+}
+
